@@ -1,0 +1,45 @@
+.products_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.product_item {
+  flex: 0 0 15rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 2rem;
+  align-items: center;
+}
+
+.product_item .add_to_cart_btn {
+  margin-top: 1rem;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: dodgerblue;
+  color: white;
+}
+
+.product_item_image {
+  height: 70%;
+  width: 100%;
+  object-fit: scale-down;
+}
+
+@media screen and (max-width: 600px) {
+  .product_item {
+    flex: 0 0 7rem;
+    min-width: 7rem;
+    margin: 2rem;
+    margin: 1rem 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .product_item_image {
+    flex: 0 0 5rem;
+    height: unset;
+  }
+}

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart should not show cart product if the user is not authenticated. 1`] = `<div />`;
+
+exports[`Cart should render cart products list for authenticated users. 1`] = `
+<div>
+  <ul
+    class="cart_products_list"
+  >
+    <h3>
+      Shopping cart content
+    </h3>
+    <li
+      class="product_list_item"
+    >
+      <span>
+         
+        Product
+         
+      </span>
+      <button
+        class="remove_from_cart_btn"
+      >
+        Remove
+      </button>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCard should render product details. 1`] = `
+<div>
+  <li
+    class="product_item"
+  >
+    <span>
+       
+      Product
+       
+    </span>
+    <span>
+       
+      1000
+       
+    </span>
+    <img
+      class="product_item_image"
+    />
+    <button
+      class="add_to_cart_btn"
+    />
+  </li>
+</div>
+`;
