@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development --watch ./shopping_cart/frontend/src/index.js --output ./shopping_cart/frontend/static/frontend/main.js",
-    "build": "webpack --mode production ./shopping_cart/frontend/src/index.js --output ./shopping_cart/frontend/static/frontend/main.js",
+    "dev": "webpack --mode development --watch src/frontend/src/index.js --output src/frontend/static/frontend/main.js",
+    "build": "webpack --mode production src/frontend/src/index.js --output src/frontend/static/frontend/main.js",
     "test": "jest"
   },
   "keywords": [],
