@@ -23,6 +23,6 @@ Install front end dependencies <code>npm install</code>
 <h2>Start application</h2>
 Start frontend <code>npm dev / npm start</code><br/>
 Start backend <code>python src/manage.py runserver</code><br/>
-The app is lauched on <code>port:8000</code>
+The app is launched on <code>port:8000</code>
 
 
